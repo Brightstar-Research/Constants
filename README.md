@@ -8,7 +8,13 @@ This repository contains constants and configuration values used across Brightst
 
 ## License
 
-This project is licensed under the Mozilla Public License 2.0. See the [LICENSE](LICENSE) file for details.
+This project is **PROPRIETARY SOFTWARE** and is **NOT** open source. All rights are reserved. 
+
+**Unauthorized use, copying, distribution, or modification is strictly prohibited.**
+
+Use of this software requires explicit written permission and payment of applicable license fees. See the [LICENSE](LICENSE) file for full terms and conditions.
+
+For licensing inquiries, please contact Brightstar Research LLP or Deshik Narasimha.
 
 ## Contributing
 

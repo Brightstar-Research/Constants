@@ -49,7 +49,14 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 If you have questions about contributing, please open an issue or contact the maintainers.
 
-## License
+## License and Ownership
 
-By contributing, you agree that your contributions will be licensed under the Mozilla Public License 2.0.
+**IMPORTANT:** This is proprietary software. By contributing, you agree that:
+
+1. All contributions become the exclusive property of Brightstar Research LLP and Deshik Narasimha.
+2. You grant Brightstar Research LLP and Deshik Narasimha a perpetual, irrevocable, worldwide, royalty-free, exclusive license to use, modify, distribute, and sublicense your contributions.
+3. You represent that you have the right to grant such rights and that your contributions do not infringe upon any third-party rights.
+4. All contributions are subject to the same proprietary license terms as the rest of the Software.
+
+Contributions may be subject to review and approval at the sole discretion of the maintainers.
 
