@@ -24,6 +24,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 This project adheres to a Code of Conduct. Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details.
 
+## Financial Disclaimer
+
+**IMPORTANT**: This software contains financial market data and information. Please read the [DISCLAIMER.md](DISCLAIMER.md) file carefully before using this software. The software is provided for informational purposes only and does not constitute investment, trading, or financial advice. Trading and investing involve substantial risk of loss.
+
 ## Copyright
 
 Copyright (c) 2025 Brightstar Research LLP, Deshik Narasimha. All rights reserved.
