@@ -1,0 +1,830 @@
+# BSR Analytics - NFO (F&O) Stock Metadata File
+# All 224 NFO eligible stocks from analytics.rankings where series = 'FNO'
+# Used by charting algorithms and analysis services for derivatives trading stocks
+# Generated from actual database data on 2025-09-17
+
+stocks:
+  # NIFTY 50 Banking Stocks
+  AXISBANK:
+    indices: [NIFTY50, BANKNIFTY]
+    sector: Banking
+  HDFCBANK:
+    indices: [NIFTY50, BANKNIFTY] 
+    sector: Banking
+  ICICIBANK:
+    indices: [NIFTY50, BANKNIFTY]
+    sector: Banking
+  SBIN:
+    indices: [NIFTY50, BANKNIFTY]
+    sector: Banking
+  KOTAKBANK:
+    indices: [NIFTY50, BANKNIFTY]
+    sector: Banking
+  BAJFINANCE:
+    indices: [NIFTY50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  BAJAJFINSV:
+    indices: [NIFTY50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  INDUSINDBK:
+    indices: [NIFTY50, BANKNIFTY]
+    sector: Banking
+  
+  # NIFTY 50 IT Stocks
+  TCS:
+    indices: [NIFTY50, NIFTYIT]
+    sector: IT
+  INFY:
+    indices: [NIFTY50, NIFTYIT]
+    sector: IT
+  WIPRO:
+    indices: [NIFTY50, NIFTYIT]
+    sector: IT
+  HCLTECH:
+    indices: [NIFTY50, NIFTYIT]
+    sector: IT
+  TECHM:
+    indices: [NIFTY50, NIFTYIT]
+    sector: IT
+  LTIM:
+    indices: [NIFTYNXT50, NIFTYIT]
+    sector: IT
+  
+  # NIFTY 50 Auto Stocks  
+  MARUTI:
+    indices: [NIFTY50, NIFTYAUTO]
+    sector: Auto
+  BAJAJ-AUTO:
+    indices: [NIFTY50, NIFTYAUTO]
+    sector: Auto
+  M&M:
+    indices: [NIFTY50, NIFTYAUTO]
+    sector: Auto
+  EICHERMOT:
+    indices: [NIFTY50, NIFTYAUTO]
+    sector: Auto
+  HEROMOTOCO:
+    indices: [NIFTY50, NIFTYAUTO]
+    sector: Auto
+  TATAMOTORS:
+    indices: [NIFTY50, NIFTYAUTO]
+    sector: Auto
+  
+  # NIFTY 50 Pharma Stocks
+  SUNPHARMA:
+    indices: [NIFTY50, NIFTYPHARMA]
+    sector: Pharma
+  DRREDDY:
+    indices: [NIFTY50, NIFTYPHARMA]
+    sector: Pharma
+  CIPLA:
+    indices: [NIFTY50, NIFTYPHARMA]
+    sector: Pharma
+  DIVISLAB:
+    indices: [NIFTYNXT50, NIFTYPHARMA]
+    sector: Pharma
+  
+  # NIFTY 50 Energy/Oil & Gas Stocks
+  RELIANCE:
+    indices: [NIFTY50, NIFTYENERGY]
+    sector: Energy
+  ONGC:
+    indices: [NIFTY50, NIFTYENERGY]
+    sector: Oil_Gas
+  IOC:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Oil_Gas
+  BPCL:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Oil_Gas
+  COALINDIA:
+    indices: [NIFTY50, NIFTYENERGY]
+    sector: Mining
+  NTPC:
+    indices: [NIFTY50, NIFTYENERGY]
+    sector: Power
+  POWERGRID:
+    indices: [NIFTY50, NIFTYENERGY]
+    sector: Power
+  
+  # NIFTY 50 Metals & Steel
+  TATASTEEL:
+    indices: [NIFTY50, NIFTYMETAL]
+    sector: Steel
+  HINDALCO:
+    indices: [NIFTY50, NIFTYMETAL]
+    sector: Metals
+  JSWSTEEL:
+    indices: [NIFTY50, NIFTYMETAL]
+    sector: Steel
+  
+  # NIFTY 50 FMCG Stocks
+  HINDUNILVR:
+    indices: [NIFTY50, NIFTYFMCG]
+    sector: FMCG
+  ITC:
+    indices: [NIFTY50, NIFTYFMCG]
+    sector: FMCG
+  BRITANNIA:
+    indices: [NIFTYNXT50, NIFTYFMCG]
+    sector: FMCG
+  NESTLEIND:
+    indices: [NIFTY50, NIFTYFMCG]
+    sector: FMCG
+  TATACONSUM:
+    indices: [NIFTY50, NIFTYFMCG]
+    sector: FMCG
+  
+  # NIFTY 50 Other Sectors
+  LT:
+    indices: [NIFTY50, NIFTYINFRA]
+    sector: Infrastructure
+  ADANIPORTS:
+    indices: [NIFTY50, NIFTYINFRA]
+    sector: Infrastructure
+  BHARTIARTL:
+    indices: [NIFTY50]
+    sector: Telecom
+  ASIANPAINT:
+    indices: [NIFTY50]
+    sector: Paints
+  ULTRACEMCO:
+    indices: [NIFTY50]
+    sector: Cement
+  TITAN:
+    indices: [NIFTY50, NIFTYCONSUMERDUR]
+    sector: Jewelry
+  APOLLOHOSP:
+    indices: [NIFTY50]
+    sector: Healthcare
+  GRASIM:
+    indices: [NIFTY50]
+    sector: Chemicals
+  HDFCLIFE:
+    indices: [NIFTY50]
+    sector: Insurance
+  SBILIFE:
+    indices: [NIFTY50]
+    sector: Insurance
+  
+  # Banking Sector (Non-NIFTY50)
+  BANKBARODA:
+    indices: [NIFTYNXT50, BANKNIFTY]
+    sector: Banking
+  FEDERALBNK:
+    indices: [BANKNIFTY]
+    sector: Banking
+  IDFCFIRSTB:
+    indices: [BANKNIFTY]
+    sector: Banking
+  PNB:
+    indices: [NIFTYNXT50, BANKNIFTY]
+    sector: Banking
+  RBLBANK:
+    indices: [BANKNIFTY]
+    sector: Banking
+  AUBANK:
+    indices: [BANKNIFTY]
+    sector: Banking
+  YESBANK:
+    indices: [BANKNIFTY]
+    sector: Banking
+  BANKINDIA:
+    indices: [BANKNIFTY]
+    sector: Banking
+  CANBK:
+    indices: [NIFTYNXT50, BANKNIFTY]
+    sector: Banking
+  UNIONBANK:
+    indices: [BANKNIFTY]
+    sector: Banking
+  BANDHANBNK:
+    indices: [BANKNIFTY]
+    sector: Banking
+  INDIANB:
+    indices: [BANKNIFTY]
+    sector: Banking
+  
+  # Financial Services (Non-Banking)
+  SHRIRAMFIN:
+    indices: [NIFTY50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  LICHSGFIN:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  M&MFIN:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  MANAPPURAM:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  MFSL:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  MUTHOOTFIN:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  PFC:
+    indices: [NIFTYNXT50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  RECLTD:
+    indices: [NIFTYNXT50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  SBICARD:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  CHOLAFIN:
+    indices: [NIFTYNXT50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  HDFCAMC:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  ABCAPITAL:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  "360ONE":
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  ANGELONE:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  BSE:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  CAMS:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  CDSL:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  IIFL:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  IREDA:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  JIOFIN:
+    indices: [NIFTY50, NIFTYFINSERVICE]
+    sector: Financial_Services
+  KFINTECH:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  PAYTM:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  PNBHOUSING:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  POLICYBZR:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  POONAWALLA:
+    indices: [NIFTYFINSERVICE]
+    sector: Financial_Services
+  
+  # IT Sector (Non-NIFTY50)
+  MPHASIS:
+    indices: [NIFTYIT]
+    sector: IT
+  COFORGE:
+    indices: [NIFTYIT]
+    sector: IT
+  PERSISTENT:
+    indices: [NIFTYIT]
+    sector: IT
+  KPITTECH:
+    indices: [NIFTYIT]
+    sector: IT
+  BSOFT:
+    indices: [NIFTYIT]
+    sector: IT
+  OFSS:
+    indices: [NIFTYIT]
+    sector: IT
+  TATATECH:
+    indices: [NIFTYIT]
+    sector: IT
+  TATAELXSI:
+    indices: [NIFTYIT]
+    sector: IT
+  
+  # Auto Sector (Non-NIFTY50)
+  TVSMOTOR:
+    indices: [NIFTYNXT50, NIFTYAUTO]
+    sector: Auto
+  ASHOKLEY:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  BHARATFORG:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  BOSCHLTD:
+    indices: [NIFTYNXT50, NIFTYAUTO]
+    sector: Auto
+  CUMMINSIND:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  EXIDEIND:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  MOTHERSON:
+    indices: [NIFTYNXT50, NIFTYAUTO]
+    sector: Auto
+  SONACOMS:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  TIINDIA:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  UNOMINDA:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  BALKRISIND:
+    indices: [NIFTYAUTO]
+    sector: Auto
+  
+  # Pharma Sector (Non-NIFTY50)
+  LUPIN:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  AUROPHARMA:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  TORNTPHARM:
+    indices: [NIFTYNXT50, NIFTYPHARMA]
+    sector: Pharma
+  BIOCON:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  ALKEM:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  GRANULES:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  GLENMARK:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  LAURUSLABS:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  MANKIND:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  PPLPHARMA:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  SYNGENE:
+    indices: [NIFTYPHARMA]
+    sector: Pharma
+  ZYDUSLIFE:
+    indices: [NIFTYNXT50, NIFTYPHARMA]
+    sector: Pharma
+  
+  # Energy/Oil & Gas Sector (Non-NIFTY50)
+  GAIL:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Oil_Gas
+  HINDPETRO:
+    indices: [NIFTYENERGY]
+    sector: Oil_Gas
+  OIL:
+    indices: [NIFTYENERGY]
+    sector: Oil_Gas
+  PETRONET:
+    indices: [NIFTYENERGY]
+    sector: Oil_Gas
+  IGL:
+    indices: [NIFTYENERGY]
+    sector: Oil_Gas
+  MGL:
+    indices: [NIFTYENERGY]
+    sector: Oil_Gas
+  ATGL:
+    indices: [NIFTYENERGY]
+    sector: Oil_Gas
+  
+  # Metals & Mining (Non-NIFTY50)
+  JINDALSTEL:
+    indices: [NIFTYNXT50, NIFTYMETAL]
+    sector: Steel
+  VEDL:
+    indices: [NIFTYNXT50, NIFTYMETAL]
+    sector: Metals
+  SAIL:
+    indices: [NIFTYMETAL]
+    sector: Steel
+  HINDZINC:
+    indices: [NIFTYMETAL]
+    sector: Metals
+  NATIONALUM:
+    indices: [NIFTYMETAL]
+    sector: Metals
+  HINDCOPPER:
+    indices: [NIFTYMETAL]
+    sector: Metals
+  JSL:
+    indices: [NIFTYMETAL]
+    sector: Metals
+  NMDC:
+    indices: [NIFTYMETAL]
+    sector: Mining
+  
+  # FMCG Sector (Non-NIFTY50)
+  DABUR:
+    indices: [NIFTYNXT50, NIFTYFMCG]
+    sector: FMCG
+  COLPAL:
+    indices: [NIFTYFMCG]
+    sector: FMCG
+  GODREJCP:
+    indices: [NIFTYNXT50, NIFTYFMCG]
+    sector: FMCG
+  MARICO:
+    indices: [NIFTYFMCG]
+    sector: FMCG
+  VBL:
+    indices: [NIFTYNXT50, NIFTYFMCG]
+    sector: FMCG
+  PAGEIND:
+    indices: [NIFTYFMCG]
+    sector: Paper
+  PATANJALI:
+    indices: [NIFTYFMCG]
+    sector: FMCG
+  JUBLFOOD:
+    indices: [NIFTYFMCG]
+    sector: Food
+  
+  # Infrastructure & Construction
+  NBCC:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  NCC:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  IRB:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  IRFC:
+    indices: [NIFTYNXT50, NIFTYINFRA]
+    sector: Infrastructure
+  RVNL:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  HAL:
+    indices: [NIFTYNXT50, NIFTYINFRA]
+    sector: Defense
+  BEL:
+    indices: [NIFTY50, NIFTYINFRA]
+    sector: Defense
+  HUDCO:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  LTF:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  GMRAIRPORT:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  INDUSTOWER:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  MAZDOCK:
+    indices: [NIFTYINFRA]
+    sector: Infrastructure
+  BDL:
+    indices: [NIFTYINFRA]
+    sector: Defense
+  
+  # Cement & Building Materials
+  ACC:
+    indices: [NIFTYREALTY]
+    sector: Cement
+  SHREECEM:
+    indices: [NIFTYNXT50, NIFTYREALTY]
+    sector: Cement
+  AMBUJACEM:
+    indices: [NIFTYNXT50, NIFTYREALTY]
+    sector: Cement
+  DALBHARAT:
+    indices: [NIFTYREALTY]
+    sector: Cement
+  ASTRAL:
+    indices: []
+    sector: Building_Materials
+  APLAPOLLO:
+    indices: []
+    sector: Steel_Tubes
+  
+  # Real Estate
+  DLF:
+    indices: [NIFTYNXT50, NIFTYREALTY]
+    sector: Real_Estate
+  GODREJPROP:
+    indices: [NIFTYREALTY]
+    sector: Real_Estate
+  LODHA:
+    indices: [NIFTYNXT50, NIFTYREALTY]
+    sector: Real_Estate
+  OBEROIRLTY:
+    indices: [NIFTYREALTY]
+    sector: Real_Estate
+  PRESTIGE:
+    indices: [NIFTYREALTY]
+    sector: Real_Estate
+  
+  # Power & Renewable Energy
+  TATAPOWER:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Power
+  NHPC:
+    indices: [NIFTYENERGY]
+    sector: Power
+  SJVN:
+    indices: [NIFTYENERGY]
+    sector: Power
+  CESC:
+    indices: [NIFTYENERGY]
+    sector: Power
+  TORNTPOWER:
+    indices: [NIFTYENERGY]
+    sector: Power
+  JSWENERGY:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Power
+  PGEL:
+    indices: [NIFTYENERGY]
+    sector: Power
+  ADANIGREEN:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Renewable_Energy
+  ADANIENSOL:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Renewable_Energy
+  SOLARINDS:
+    indices: [NIFTYENERGY]
+    sector: Solar
+  INOXWIND:
+    indices: [NIFTYENERGY]
+    sector: Wind_Energy
+  CGPOWER:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Power_Equipment
+  
+  # Consumer Goods & Retail
+  TRENT:
+    indices: [NIFTY50]
+    sector: Consumer_Services
+  DMART:
+    indices: [NIFTYNXT50]
+    sector: Retail
+  NYKAA:
+    indices: []
+    sector: E_Commerce
+  
+  # Chemicals & Fertilizers
+  TATACHEM:
+    indices: []
+    sector: Chemicals
+  UPL:
+    indices: []
+    sector: Agro_Chemicals
+  SRF:
+    indices: []
+    sector: Chemicals
+  PIDILITIND:
+    indices: [NIFTYNXT50]
+    sector: Chemicals
+  AARTIIND:
+    indices: []
+    sector: Chemicals
+  ETERNAL:
+    indices: [NIFTY50]
+    sector: Consumer_Services
+  PIIND:
+    indices: []
+    sector: Chemicals
+  CHAMBLFERT:
+    indices: []
+    sector: Fertilizers
+  
+  # Technology & Electronics
+  DIXON:
+    indices: []
+    sector: Electronics
+  AMBER:
+    indices: []
+    sector: Electronics
+  KAYNES:
+    indices: []
+    sector: Electronics
+  
+  # Telecom & Equipment
+  IDEA:
+    indices: []
+    sector: Telecom
+  TATACOMM:
+    indices: []
+    sector: Telecom
+  HFCL:
+    indices: []
+    sector: Telecom_Equipment
+  
+  # Industrial & Engineering
+  ABB:
+    indices: [NIFTYNXT50]
+    sector: Industrial
+  SIEMENS:
+    indices: [NIFTYNXT50]
+    sector: Industrial
+  BHEL:
+    indices: []
+    sector: Heavy_Engineering
+  CYIENT:
+    indices: []
+    sector: Engineering_Services
+  
+  # Cables & Electrical Equipment
+  KEI:
+    indices: []
+    sector: Cables
+  POLYCAB:
+    indices: []
+    sector: Cables
+  HAVELLS:
+    indices: [NIFTYNXT50]
+    sector: Electrical_Equipment
+  
+  # Consumer Appliances
+  BLUESTARCO:
+    indices: []
+    sector: Consumer_Appliances
+  CROMPTON:
+    indices: []
+    sector: Consumer_Appliances
+  PEL:
+    indices: []
+    sector: Consumer_Appliances
+  VOLTAS:
+    indices: []
+    sector: Consumer_Appliances
+  
+  # Healthcare & Hospitals
+  FORTIS:
+    indices: []
+    sector: Healthcare
+  MAXHEALTH:
+    indices: []
+    sector: Healthcare
+  
+  # Insurance
+  LICI:
+    indices: [NIFTYNXT50]
+    sector: Insurance
+  ICICIGI:
+    indices: [NIFTYNXT50]
+    sector: Insurance
+  ICICIPRULI:
+    indices: [NIFTYNXT50]
+    sector: Insurance
+  
+  # Logistics & Transportation
+  DELHIVERY:
+    indices: []
+    sector: Logistics
+  CONCOR:
+    indices: []
+    sector: Logistics
+  TITAGARH:
+    indices: []
+    sector: Railways
+  
+  # Aviation & Tourism
+  INDIGO:
+    indices: [NIFTYNXT50]
+    sector: Aviation
+  IRCTC:
+    indices: []
+    sector: Tourism
+  
+  # Hotels & Hospitality
+  INDHOTEL:
+    indices: [NIFTYNXT50]
+    sector: Hotels
+  PHOENIXLTD:
+    indices: []
+    sector: Hospitality
+  
+  # Internet & Services
+  NAUKRI:
+    indices: [NIFTYNXT50]
+    sector: Internet
+  
+  # Jewelry
+  KALYANKJIL:
+    indices: []
+    sector: Jewellery
+  
+  # Trading & Commodities
+  MCX:
+    indices: []
+    sector: Commodities
+  ADANIENT:
+    indices: [NIFTY50]
+    sector: Trading
+  
+  # Textiles & Apparel
+  ABFRL:
+    indices: []
+    sector: Textiles
+  
+  # Plastics & Materials
+  SUPREMEIND:
+    indices: []
+    sector: Plastics
+  
+  # Alcohol & Beverages
+  UNITDSPR:
+    indices: [NIFTYNXT50]
+    sector: Alcohol
+  
+  # Power Trading & Utilities
+  IEX:
+    indices: []
+    sector: Power_Trading
+
+  # NIFTY NEXT 50 Additional Stocks
+  ADANIPOWER:
+    indices: [NIFTYNXT50, NIFTYENERGY]
+    sector: Power
+
+  BAJAJHLDNG:
+    indices: [NIFTYNXT50, NIFTYFINSERVICE]
+    sector: Financial_Services
+
+  BAJAJHFL:
+    indices: [NIFTYNXT50, NIFTYFINSERVICE]
+    sector: Financial_Services
+
+  HYUNDAI:
+    indices: [NIFTYNXT50, NIFTYAUTO]
+    sector: Auto
+
+  SWIGGY:
+    indices: [NIFTYNXT50]
+    sector: Consumer_Services
+
+# Index definitions for reference
+index_definitions:
+  NIFTY50:
+    name: "NIFTY 50"
+    description: "Top 50 companies by market capitalization"
+  
+  NIFTYIT:
+    name: "NIFTY IT"
+    description: "Information Technology companies"
+    
+  BANKNIFTY:
+    name: "BANK NIFTY"
+    description: "Banking sector companies"
+    
+  NIFTYENERGY:
+    name: "NIFTY Energy"
+    description: "Energy, oil, gas and power sector companies"
+    
+  NIFTYAUTO:
+    name: "NIFTY Auto"
+    description: "Automobile and auto components sector companies"
+    
+  NIFTYPHARMA:
+    name: "NIFTY Pharma"
+    description: "Pharmaceutical companies"
+    
+  NIFTYMETAL:
+    name: "NIFTY Metal"
+    description: "Metal, steel and mining companies"
+    
+  NIFTYFMCG:
+    name: "NIFTY FMCG"
+    description: "Fast Moving Consumer Goods companies"
+    
+  NIFTYFINSERVICE:
+    name: "NIFTY Financial Services"
+    description: "Financial Services companies (non-banking)"
+    
+  NIFTYINFRA:
+    name: "NIFTY Infrastructure"
+    description: "Infrastructure and construction companies"
+    
+  NIFTYCONSUMERDUR:
+    name: "NIFTY Consumer Durables"
+    description: "Consumer Durables companies"
+    
+  NIFTYREALTY:
+    name: "NIFTY Realty"
+    description: "Real estate and cement companies"
+    
+  NIFTYNXT50:
+    name: "NIFTY Next 50"
+    description: "Next 50 large-cap companies after NIFTY 50"
