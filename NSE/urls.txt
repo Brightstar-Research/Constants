@@ -1,1 +1,5 @@
 https://www.nseindia.com/api/underlying-information (for list of active FNO underlyings)
+
+https://www.niftyindices.com/IndexConstituent/ind_nifty50list.csv
+https://www.niftyindices.com/IndexConstituent/ind_niftynext50list.csv
+https://www.niftyindices.com/IndexConstituent/ind_nifty100list.csv
