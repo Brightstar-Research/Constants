@@ -1,0 +1,1 @@
+//TODO all exisitng tickers, including fx, this is for websocket subscription
